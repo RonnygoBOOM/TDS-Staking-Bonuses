@@ -1,1 +1,11 @@
 
+.card-row {
+    display: flex;
+    justify-content:center;
+
+}
+
+.card-col {
+    display: flex;
+    justify-content: space-between;
+}
