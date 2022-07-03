@@ -14,14 +14,22 @@
     justify-self:left !important;
 }
 
+.title-text {
+    display: flex;
+    align-self: center;
+    text-align: center;
+}
+.traits {
+    display: flex;
+    justify-content: space-around;
+}
 .card-column {
     display: flex;
-    justify-content:space-between;
     margin: 0 1em 0 1em;
     align-items: center;
+    text-align: center;
 }
 
 .card-img {
-    width: 50%;
-    height: 50%;
+    height: 20vh;
 }

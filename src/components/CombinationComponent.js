@@ -6,8 +6,9 @@ function Combination(props) {
     return (
       <Row className="title-row" key={item.id}>
         <Col className="title-column" xs={{ size: 1 }}>
-          <h3>{item.title}</h3>
+          <h3 className="title-text">{item.title}</h3>
         </Col>
+        <div className="traits">
         {item.trait.map((traitItem) => {
           return (
             <Col
@@ -31,8 +32,9 @@ function Combination(props) {
             </Col>
           );
         })}
+        </div>
         <Col xs={{ size: 1 }}>
-          <h3>{item.tokens}</h3>
+          <h3 className="title-text">{item.tokens}</h3>
         </Col>
       </Row>
       
