@@ -1,11 +1,11 @@
 import React from "react";
-import { Card, CardText, CardImg, Row, Col } from "reactstrap";
+import { Card, CardText, CardImg, Row, Col, Container } from "reactstrap";
 
 function Combination(props) {
   const myCombination = props.combinations.map((item) => {
     return (
-      <Row className="card-row" key={item.id}>
-        <Col xs={{ size: 1 }}>
+      <Row className="title-row" key={item.id}>
+        <Col className="title-column" xs={{ size: 1 }}>
           <h3>{item.title}</h3>
         </Col>
         {item.trait.map((traitItem) => {
@@ -17,11 +17,15 @@ function Combination(props) {
             >
               <a href={traitItem.jpgStoreLink}>
                 <Card>
+                    <Row>
                   <CardImg
                     src={traitItem.image}
                     alt={traitItem.altText}
                   ></CardImg>
+                  </Row>
+                  <Row>
                   <CardText>{traitItem.name}</CardText>
+                  </Row>
                 </Card>
               </a>
             </Col>
@@ -31,6 +35,7 @@ function Combination(props) {
           <h3>{item.tokens}</h3>
         </Col>
       </Row>
+      
       // <Col key={item.id} xs={{size:4}}>
       //     <Card>
       //     {/* <a href={item.link}> */}
@@ -48,7 +53,9 @@ function Combination(props) {
 
   return (
     <>
-      <Row className="card-row">{myCombination}</Row>
+    <Container>
+      {myCombination}
+    </Container>
     </>
   );
 }
