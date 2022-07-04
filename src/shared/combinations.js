@@ -245,7 +245,7 @@ export const COMBINATIONS = [
             traitId: 0,
             image: "images/headpiece/biotechnology.png",
             name: "Headpiece: Biotechnology",    
-            altText: "The Deadly Sins CNFT Trait: Body Accessory: Headpiece: Biotechnology",
+            altText: "The Deadly Sins CNFT Trait: Headpiece: Biotechnology",
             jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522headpiece%253A%2522%253A%255B%2522biotechnology%2522%255D%257D",
         },
         {
@@ -282,6 +282,64 @@ export const COMBINATIONS = [
             name: "Body Accessory: Ada Core",
             altText:  "The Deadly Sins CNFT Trait: Body Accessory: Ada Core",
             jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522ada%2520core%2522%255D%257D",
+        },
+    ],
+
+        backgroundImg: "images/orange-fire.png",
+        tokens: 6,
+    },
+    {
+        id: 8,
+        title: "Flamboyant",
+        trait : [
+            {
+            traitId: 0,
+            image: "images/skin/gold.png",
+            name: "Skin: Gold",    
+            altText: "The Deadly Sins CNFT Trait: Skin: Gold",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522skin%2520type%2522%253A%255B%2522gold%2522%255D%257D",
+        },
+        {
+            traitId: 1,
+            image: "images/mouth/gold-tooth.png", 
+            name: "Mouth: Gold Tooth",
+            altText: "The Deadly Sins CNFT Trait: Mouth: Gold Tooth",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522mouth%2522%253A%255B%2522gold%2520tooth%2522%255D%257D",
+        },
+        {
+            traitId: 2,
+            image: "images/eyes/aviator-glasses.png", 
+            name: "Body Accessory: Biotechnology",
+            altText: "The Deadly Sins CNFT Trait: Body Accessory: Biotechnology",
+            jpgStoreLink: "",
+        },
+        {
+            traitId: 3,
+            image: "images/mouth/cigar.png", 
+            name: "Earring: Cardano Bling",
+            altText:  "The Deadly Sins CNFT Trait: Earring: Cardano Bling",
+            jpgStoreLink: "",
+        },
+        {
+            traitId: 4,
+            image: "images/earring/gold-hoop.png", 
+            name: "Eyes: Cardano",
+            altText:  "The Deadly Sins CNFT Trait: Eyes: Cardano",
+            jpgStoreLink: "",
+        },
+        {
+            traitId: 5,
+            image: "images/mouth/pout.png", 
+            name: "Body Accessory: Ada Core",
+            altText:  "The Deadly Sins CNFT Trait: Body Accessory: Ada Core",
+            jpgStoreLink: "",
+        },
+        {
+            traitId: 6,
+            image: "images/body-accessory/gold-chains.png", 
+            name: "Body Accessory: Ada Core",
+            altText:  "The Deadly Sins CNFT Trait: Body Accessory: Ada Core",
+            jpgStoreLink: "",
         },
     ],
 
