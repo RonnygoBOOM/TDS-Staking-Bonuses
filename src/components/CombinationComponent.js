@@ -11,10 +11,9 @@ function Combination(props) {
         <div className="traits">
         {item.trait.map((traitItem) => {
           return (
-            <Col
+            <div
               className="card-column"
               key={traitItem.traitId}
-              xs={{ size: 1 }}
             >
               <a className="trait-link" href={traitItem.jpgStoreLink}>
                 <Card>
@@ -29,11 +28,11 @@ function Combination(props) {
                   </Row>
                 </Card>
               </a>
-            </Col>
+            </div>
           );
         })}
         </div>
-        <Col xs={{ size: 1 }}>
+        <Col className="title-column" xs={{ size: 1 }}>
           <h3 className="title-text">{item.tokens}</h3>
         </Col>
       </Row>

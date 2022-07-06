@@ -1,17 +1,32 @@
 
 .title-row {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-content: center;
     background-color: rgb(24, 24, 24);
     color: rgb(250, 142, 0);
     width: 100%;
     /* padding: 0 1em 0 1em; */
+    max-height: 10%;
+    min-height: 10vw;
+    border-style: solid;
+    border-right:0;
+    border-left:0;
+    border-color:rgb(250, 142, 0);
 }
 
 .title-column {
     display: flex;
-    justify-self:left !important;
+    border-style: solid;
+    border-color:rgb(250, 142, 0);
+    border-top:0;
+    border-bottom:0;
+    background-color: rgb(61, 61, 61);
+    font-size: 1vw;
+    width:8vw;
+    justify-content: center;
+    min-width: 8vw;
+    min-height:15vw;
 }
 
 .title-text {
@@ -29,11 +44,14 @@
 }
 .card-column {
     display: flex;
-    margin: 0 1em 0 1em;
+    margin: 0;
     align-items: center;
     text-align: center;
+    max-height: 100%;
+    font-size: 2vw;
 }
 
 .card-img {
-    height: 20vh;
+    max-width: 100%;
+    max-height: 10vw;
 }
