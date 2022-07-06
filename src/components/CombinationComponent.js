@@ -19,10 +19,10 @@ function Combination(props) {
               <a href={traitItem.jpgStoreLink}>
                 <Card>
                     <Row>
-                  <CardImg
+                  {traitItem.image && <CardImg
                     src={traitItem.image}
                     alt={traitItem.altText}
-                  ></CardImg>
+                  ></CardImg>}
                   </Row>
                   <Row>
                   <CardText>{traitItem.name}</CardText>
