@@ -1,4 +1,6 @@
-
+body {
+    background-color: black;
+}
 .title-row {
     display: flex;
     justify-content: space-between;
@@ -27,6 +29,7 @@
     justify-content: center;
     min-width: 6vw;
     min-height:15vw;
+    align-items: center;
 }
 
 .title-text {
@@ -63,4 +66,14 @@ padding-top: 0;
 margin-top:0;
 margin-bottom: 0;
 padding-bottom: 0;
+}
+.token-container {
+}
+.token-row {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.token-image {
+    max-width: 100%;
 }
