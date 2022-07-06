@@ -24,7 +24,7 @@ function Combination(props) {
                   ></CardImg>}
                   </Row>
                   <Row>
-                  <CardText>{traitItem.name}</CardText>
+                  <CardText className="trait-text">{traitItem.name}</CardText>
                   </Row>
                 </Card>
               </a>
