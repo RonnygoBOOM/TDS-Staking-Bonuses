@@ -19,6 +19,10 @@
     align-self: center;
     text-align: center;
 }
+.trait-link {
+    color: rgb(250, 142, 0);
+    text-decoration: none;
+}
 .traits {
     display: flex;
     justify-content: space-around;

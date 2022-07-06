@@ -16,7 +16,7 @@ function Combination(props) {
               key={traitItem.traitId}
               xs={{ size: 1 }}
             >
-              <a href={traitItem.jpgStoreLink}>
+              <a className="trait-link" href={traitItem.jpgStoreLink}>
                 <Card>
                     <Row>
                   {traitItem.image && <CardImg
