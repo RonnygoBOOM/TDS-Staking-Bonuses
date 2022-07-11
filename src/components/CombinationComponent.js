@@ -5,7 +5,7 @@ function Combination(props) {
   const myCombination = props.combinations.map((item) => {
     return (
       <Row className="title-row" key={item.id}>
-        <Col className="title-column" xs={{ size: 1 }}>
+        <Col className={item.backgroundImg} xs={{ size: 1 }}>
           <h3 className="title-text">{item.title}</h3>
         </Col>
         <div className="traits">
@@ -32,14 +32,14 @@ function Combination(props) {
           );
         })}
         </div>
-        <Col className="title-column" xs={{ size: 1 }}>
+        <Col className={item.backgroundImg} xs={{ size: 1 }}>
             <Container className="token-container">
             <Col xs={{size: 12 }} className="token-row">
           <h3 className="title-text">{item.tokens + " sin tokens"}</h3>
           </Col>
           <Col xs={{size: 12 }} className="token-row">
             {/* earring is an image placeholder until I get the token image.*/}
-          <img className="token-image" alt="placeholder sin token" src="images/earring/cardano-bling.png"></img>
+          <img className="token-image" alt="sin token" src="images/extras/token.png"></img>
           </Col>
           </Container>
         </Col>

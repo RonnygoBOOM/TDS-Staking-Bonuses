@@ -40,7 +40,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+            backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -77,7 +77,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -100,7 +100,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -130,7 +130,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -160,7 +160,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -197,7 +197,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -234,7 +234,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -285,7 +285,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -343,7 +343,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -387,7 +387,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -431,7 +431,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -482,7 +482,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -526,7 +526,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -591,7 +591,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -663,7 +663,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -721,7 +721,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -772,7 +772,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -830,7 +830,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -888,7 +888,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -939,7 +939,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -990,7 +990,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -1041,7 +1041,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -1092,7 +1092,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -1143,7 +1143,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/orange-fire.png",
+        backgroundImg: "title-column fire1",
         tokens: 6,
     },
     {
@@ -1194,7 +1194,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/purple-fire.png",
+        backgroundImg: "title-column fire2",
         tokens: 12,
     },
     {
@@ -1210,7 +1210,7 @@ export const COMBINATIONS = [
             },
     ],
 
-        backgroundImg: "images/purple-fire.png",
+        backgroundImg: "title-column fire2",
         tokens: 12,
     },
     {
@@ -1261,7 +1261,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/purple-fire.png",
+        backgroundImg: "title-column fire2",
         tokens: 12,
     },
     {
@@ -1273,11 +1273,11 @@ export const COMBINATIONS = [
             image: "images/headpiece/underworld-crown.png",
             name: "Headpiece: Underworld Crown",    
             altText: "The Deadly Sins CNFT Trait: Headpiece: Underworld Crown",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522skin%2520type%2522%253A%255B%2522gold%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522headpiece%2522%253A%255B%2522underworld%2520crown%2522%255D%257D",
         },
     ],
 
-        backgroundImg: "images/purple-fire.png",
+        backgroundImg: "title-column fire2",
         tokens: 12,
     },
     {
@@ -1293,7 +1293,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 200,
     },
     {
@@ -1309,7 +1309,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 20,
     },
     {
@@ -1325,7 +1325,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 10,
     },
     {
@@ -1341,7 +1341,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 20,
     },
     {
@@ -1357,7 +1357,7 @@ export const COMBINATIONS = [
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 15,
     },
     {
@@ -1366,14 +1366,14 @@ export const COMBINATIONS = [
         trait : [
             {
             traitId: 0,
-            image: "images/sacred-items/sacred-amulet.png",
+            image: "images/sacred-items/amulet.png",
             name: "Sacred Amulet",    
             altText: "The Deadly Sins CNFT: Sacred Amulet",
             jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522earring%2522%253A%255B%2522barcode%2520tag%2522%255D%257D",
         },
     ],
 
-        backgroundImg: "images/green-fire.png",
+    backgroundImg: "title-column fire3",
         tokens: 25,
     },
 

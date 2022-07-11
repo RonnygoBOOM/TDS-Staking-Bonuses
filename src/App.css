@@ -23,13 +23,25 @@ body {
     border-color:rgb(250, 142, 0);
     border-top:0;
     border-bottom:0;
-    background-color: rgb(61, 61, 61);
+    background-size:cover;
     font-size: 1vw;
     width:6vw;
     justify-content: center;
     min-width: 6vw;
     min-height:15vw;
     align-items: center;
+}
+
+.fire1 {
+    background-image: url("../public/images/extras/bg1.jpg"); 
+}
+
+.fire2 {
+    background-image: url("../public/images/extras/bg2.jpg"); 
+}
+
+.fire3 {
+    background-image: url("../public/images/extras/bg3.jpg") !important; 
 }
 
 .title-text {
@@ -65,7 +77,7 @@ body {
 padding-top: 0;
 margin-top:0;
 margin-bottom: 0;
-padding-bottom: 0;
+padding-bottom: 2px;
 }
 .token-container {
 }
