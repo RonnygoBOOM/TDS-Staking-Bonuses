@@ -96,7 +96,7 @@ export const COMBINATIONS = [
             image: "images/headpiece/neon-meow-mask.png", 
             name: "Headpiece: Neon Meow Mask",
             altText: "The Deadly Sins CNFT Trait: Headpiece: Neon Meow Mask",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522headpiece%2522%253A%255B%2522Neon%2520meow%2520Mask%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522headpiece%2522%253A%255B%2522Neon%2520Meow%2520Mask%2522%255D%257D",
         },
     ],
 
