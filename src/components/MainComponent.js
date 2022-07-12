@@ -11,6 +11,7 @@ function Main() {
 <p style={{margin: "3em"}}>Hello Sinners!</p>
 <p style={{margin: "3em"}}>This is a simple app to help you hunt for traits. Click on any of the traits to view them on jpg.store</p>
 <Combination combinations={COMBINATIONS}/>
+<p style={{margin: "3em", textAlign: 'center'}}>Please contact me on twitter @RonnygoBOOM if you find any broken links or have suggestions for improvement!</p>
 </div>
 </>
     );

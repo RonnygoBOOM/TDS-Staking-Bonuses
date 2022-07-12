@@ -1369,7 +1369,7 @@ export const COMBINATIONS = [
             image: "images/sacred-items/amulet.png",
             name: "Sacred Amulet",    
             altText: "The Deadly Sins CNFT: Sacred Amulet",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522earring%2522%253A%255B%2522Barcode%2520tag%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522earring%2522%253A%255B%2522Barcode%2520Tag%2522%255D%257D",
         },
     ],
 
