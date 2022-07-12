@@ -8,7 +8,7 @@ export const COMBINATIONS = [
             image: "images/body-accessory/familiar-serpent.png",
             name: "Body Accessory: Familiar Serpent",    
             altText: "The Deadly Sins CNFT Trait: Body Accessory: Familiar Serpent",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522familiar%2520-%2520Serpent%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522Familiar%2520-%2520Serpent%2522%255D%257D",
         },
         {
             traitId: 1,
@@ -52,7 +52,7 @@ export const COMBINATIONS = [
             image: "images/body-accessory/familiar-tarantula.png",
             name: "Body Accessory: Familiar Tarantula",    
             altText: "The Deadly Sins CNFT Trait: Body Accessory: Familiar Tarantula",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522familiar%2520-%2520Tarantula%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522Familiar%2520-%2520Tarantula%2522%255D%257D",
         },
         {
             traitId: 1,
@@ -89,7 +89,7 @@ export const COMBINATIONS = [
             image: "images/body-accessory/familiar-cat.png",
             name: "Body Accessory: Familiar Cat",    
             altText: "The Deadly Sins CNFT Trait: Body Accessory: Familiar Cat",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522familiar%2520-%2520Cat%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522Familiar%2520-%2520Cat%2522%255D%257D",
         },
         {
             traitId: 1,
@@ -112,7 +112,7 @@ export const COMBINATIONS = [
             image: "images/body-accessory/familiar-crow.png",
             name: "Body Accessory: Familiar Crow",    
             altText: "The Deadly Sins CNFT Trait: Body Accessory: Familiar Crow",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522familiar%2520-%2520Crow%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522Familiar%2520-%2520Crow%2522%255D%257D",
         },
         {
             traitId: 1,
@@ -142,7 +142,7 @@ export const COMBINATIONS = [
             image: "images/body-accessory/familiar-goat.png",
             name: "Body Accessory: Familiar Goat",    
             altText: "The Deadly Sins CNFT Trait: Body Accessory: Familiar Goat",
-            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522familiar%2520-%2520Goat%2522%255D%257D",
+            jpgStoreLink: "https://www.jpg.store/collection/thedeadlysins?filters=%257B%2522body%2520accessory%2522%253A%255B%2522Familiar%2520-%2520Goat%2522%255D%257D",
         },
         {
             traitId: 1,
