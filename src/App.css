@@ -89,3 +89,23 @@ padding-bottom: 2px;
 .token-image {
     max-width: 100%;
 }
+
+/*Header*/
+.navbar {
+    display: flex;
+    justify-content: left;
+    background-color: rgb(128, 0, 0);
+    align-content: center;
+    text-align: left;
+}
+
+.navbar ul {
+    list-style: none;
+}
+
+.navbar-brand {
+    color: black;
+    display: flex;
+    font-size: larger; 
+    padding: 1vw;
+}
