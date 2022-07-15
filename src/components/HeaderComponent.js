@@ -7,13 +7,11 @@ function Header(props) {
 
     const dropdownRole = props.combinations.map((item) => {
         return (
-            <>
                 <DropdownItem>
-                    <a href={`"/#" + ${item.title}`} alt={item.alt}>
+                    <a href={`/#${item.title}`} alt={item.alt}>
                     {item.title}
                     </a>
                 </DropdownItem>
-            </>
         );
     })
     function toggle() {
@@ -27,8 +25,6 @@ function Header(props) {
 
     return (
             <Navbar dark sticky="top" expand="md">
-                {/* <img className="logo" src="/images/cardano-ada-logo.png"></img>
-                <h1>cnftTOP</h1> */}
                 <NavbarBrand>The Deadly Sins</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbarCollapse} />
                 <Collapse isOpen={navCollapse} navbar>
@@ -45,15 +41,6 @@ function Header(props) {
                         </NavItem>
                         <NavItem>
                             <NavLink href="/#">Home</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#experiments">Experiments</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#about">About</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#contact">Contact</NavLink>
                         </NavItem>
                     </Nav>
                 </Collapse>

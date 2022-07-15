@@ -53,6 +53,10 @@ body {
     color: rgb(250, 142, 0);
     text-decoration: none;
 }
+.role-title-link {
+color: rgb(250, 142, 0);
+text-decoration: none;
+}
 .traits {
     display: flex;
     justify-content: space-around;

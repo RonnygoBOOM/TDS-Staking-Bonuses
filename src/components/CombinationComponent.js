@@ -15,7 +15,7 @@ function Combination(props) {
               className="card-column"
               key={traitItem.traitId}
             >
-              <a className="trait-link" href={traitItem.jpgStoreLink}>
+              <a className="trait-link" name={item.title} href={traitItem.jpgStoreLink}>
                 <Card>
                     <Row>
                   {traitItem.image && <CardImg
@@ -24,7 +24,9 @@ function Combination(props) {
                   ></CardImg>}
                   </Row>
                   <Row>
+                    <a className="role-title-link" href={`#${item.title}`} alt="role title">
                   <CardText className="trait-text">{traitItem.name}</CardText>
+                  </a>
                   </Row>
                 </Card>
               </a>
@@ -38,25 +40,11 @@ function Combination(props) {
           <h3 className="title-text">{item.tokens + " sin tokens"}</h3>
           </Col>
           <Col xs={{size: 12 }} className="token-row">
-            {/* earring is an image placeholder until I get the token image.*/}
           <img className="token-image" alt="sin token" src="images/extras/token.png"></img>
           </Col>
           </Container>
         </Col>
       </Row>
-      
-      // <Col key={item.id} xs={{size:4}}>
-      //     <Card>
-      //     {/* <a href={item.link}> */}
-      //   <a href={item.trait.jpgStoreLink}>
-      //       <CardImg src={item.trait.image} alt={item.trait.altText}></CardImg>
-      //   </a>
-      //     {/* </a> */}
-      //         <CardText className="card-title">
-      //             {item.trait.name}
-      //         </CardText>
-      //     </Card>
-      // </Col>
     );
   });
 
