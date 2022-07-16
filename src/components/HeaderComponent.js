@@ -1,5 +1,5 @@
 import React from 'react';
-import {Navbar, Collapse, NavbarBrand, Dropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarToggler, Nav, NavItem, NavLink} from 'reactstrap';
+import {Navbar, Collapse, NavbarBrand, Dropdown, DropdownToggle, DropdownMenu, NavbarToggler, Nav, NavItem} from 'reactstrap';
 
 function Header(props) {
     const [navCollapse, setNavCollapse] = React.useState(false)
@@ -7,14 +7,14 @@ function Header(props) {
 
     const dropdownRole = props.combinations.map((item) => {
         return (
-                <DropdownItem>
-                    <a href={`/#${item.title}`} alt={item.alt}>
+                <div className="roles-item" onClick={toggleDropdown}>
+                    <a className="roles-item-link" href={`/#${item.title}`} alt={item.alt}>
                     {item.title}
                     </a>
-                </DropdownItem>
+                </div>
         );
     })
-    function toggle() {
+    function toggleDropdown() {
         setDropdownOpen(prev => !prev)
     }
 
@@ -24,26 +24,24 @@ function Header(props) {
 
 
     return (
-            <Navbar dark sticky="top" expand="md">
+            <Navbar sticky="top" expand="md">
                 <NavbarBrand>The Deadly Sins</NavbarBrand>
                 <NavbarToggler onClick={toggleNavbarCollapse} />
                 <Collapse isOpen={navCollapse} navbar>
                     <Nav className="ml-auto" navbar>
                         <NavItem>
-                        <Dropdown isOpen={dropdownOpen} toggle={toggle}>
-                        <DropdownToggle caret>
-                            Roles
-                        </DropdownToggle>
-                        <DropdownMenu>
-                            {dropdownRole}
-                        </DropdownMenu>
-                    </Dropdown>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="/#">Home</NavLink>
+
                         </NavItem>
                     </Nav>
                 </Collapse>
+                <Dropdown direction="left" isOpen={dropdownOpen} toggle={toggleDropdown}>
+                        <DropdownToggle caret>
+                            Roles
+                        </DropdownToggle>
+                        <DropdownMenu className="roles-menu">
+                            {dropdownRole}
+                        </DropdownMenu>
+                    </Dropdown>
             </Navbar> 
     );
 }

@@ -113,3 +113,15 @@ padding-bottom: 2px;
     font-size: larger; 
     padding: 1vw;
 }
+
+.roles-menu {
+display: flex;
+justify-content: center;
+}
+
+.roles-item-link {
+    text-decoration: none;
+    color: white;
+    padding: 3px;
+}
+
