@@ -96,8 +96,36 @@ padding-bottom: 2px;
 
 /*Header*/
 .navbar {
-    background: linear-gradient(175deg,#ff423e,#6d1d2d,#6d1d2d);
+    background: linear-gradient(8deg,#ff423e,#6d1d2d,#6d1d2d);
     align-content: center;
+    animation: backgroundcolor .6s ease-in-out infinite alternate;
+}
+
+@keyframes backgroundcolor {
+    0%{
+        background: linear-gradient(8deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    15% {
+        background: linear-gradient(7.5deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    30% {
+        background: linear-gradient(7deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    45% {
+        background: linear-gradient(6.5deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    60% {
+        background: linear-gradient(6deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    75% {
+        background: linear-gradient(5.5deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    88% {
+        background: linear-gradient(5deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
+    100% {
+        background: linear-gradient(4.5deg,#ff423e,#6d1d2d,#6d1d2d);
+    }
 }
 
 .nav-tds-icon {
