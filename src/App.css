@@ -8,7 +8,6 @@ body {
     background-color: rgb(78, 78, 78);
     color: rgb(250, 142, 0);
     width: 100%;
-    /* padding: 0 1em 0 1em; */
     max-height: 10%;
     min-height: 10vw;
     border-style: solid;
@@ -60,6 +59,7 @@ text-decoration: none;
 .traits {
     display: flex;
     justify-content: space-around;
+    overflow: hidden;
 }
 .card-column {
     display: flex;
@@ -96,11 +96,17 @@ padding-bottom: 2px;
 
 /*Header*/
 .navbar {
-    display: flex;
-    justify-content: left;
     background-color: rgb(128, 0, 0);
     align-content: center;
-    text-align: left;
+    
+}
+
+.nav-tds-icon {
+    display: flex;
+    justify-self: center;
+    align-self: center;
+    height: 100;
+    width: 3em;
 }
 
 .navbar ul {
@@ -108,11 +114,21 @@ padding-bottom: 2px;
 }
 
 .navbar-brand {
-    color: black;
+    color: white;
+    font-size: 1em; 
+    position: absolute;
     display: flex;
-    font-size: larger; 
-    padding: 1vw;
+    align-self: center;
+    padding: auto;
+    margin-top: 2.9em;
 }
+
+.main-text {
+    font-size: 1rem;
+    margin: 1em 2em 1em 2em;
+}
+
+/* commented code out of header component
 
 .roles-menu {
 display: flex;
@@ -123,23 +139,24 @@ justify-content: center;
     text-decoration: none;
     color: white;
     padding: 3px;
-}
+} */
 
 /* NFTScroll */
 
 .nft-scroll-div {
     height: 20vw;
-    padding-left: 1vw;
-    padding-right: 1vw;
+    padding-left: 0vw;
+    padding-right: 0vw;
     padding-top: 0;
     padding-bottom: 0;
-    margin: 0;
+    margin: 0 0 2vw 0;
     display: flex;
     position: relative;
     animation: bannermove 160s linear infinite;
+    overflow: hidden;
   }
   .nft-scroll-img {
-    margin: 1vw;
+    margin: 0 1vw 0 1vw;
     height: 20vw;
   }
   
