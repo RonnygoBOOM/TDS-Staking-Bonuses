@@ -185,6 +185,7 @@ justify-content: center;
   .nft-scroll-img {
     margin: 0 1vw 0 1vw;
     height: 20vw;
+    border-radius: .5em;
   }
   
   @keyframes bannermove {
