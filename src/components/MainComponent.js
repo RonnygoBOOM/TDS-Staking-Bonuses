@@ -1,11 +1,13 @@
 import React from 'react';
 import {COMBINATIONS} from '../shared/combinations';
 import Combination from './CombinationComponent';
+import NFTScroll from './NFTScrollComponent';
 // import Header from './HeaderComponent';
 
 function Main() {
     return (
 <>
+<NFTScroll/>
 {/* <Header combinations={COMBINATIONS}/> */}
 <div style={{color: "rgb(250, 142, 0)", backgroundColor: "black"}}>
 <p style={{margin: "3em"}}>Hello Sinners!</p>
