@@ -41,7 +41,7 @@ export const COMBINATIONS = [
     ],
 
             backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 1,
@@ -78,7 +78,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 2,
@@ -101,7 +101,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 3,
@@ -131,7 +131,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 4,
@@ -161,7 +161,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 5,
@@ -198,7 +198,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 6,
@@ -235,7 +235,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 7,
@@ -286,7 +286,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 8,
@@ -344,7 +344,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 9,
@@ -388,7 +388,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 10,
@@ -432,7 +432,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 11,
@@ -483,7 +483,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 12,
@@ -527,7 +527,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 13,
@@ -592,7 +592,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 14,
@@ -664,7 +664,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 15,
@@ -722,7 +722,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 16,
@@ -773,7 +773,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 17,
@@ -831,7 +831,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 18,
@@ -889,7 +889,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 19,
@@ -940,7 +940,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 20,
@@ -991,7 +991,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 21,
@@ -1042,7 +1042,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 22,
@@ -1093,7 +1093,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 23,
@@ -1144,7 +1144,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire1",
-        tokens: 6,
+        tokens: 1,
     },
     {
         id: 24,
@@ -1195,7 +1195,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire2",
-        tokens: 12,
+        tokens: 3,
     },
     {
         id: 25,
@@ -1211,7 +1211,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire2",
-        tokens: 12,
+        tokens: 3,
     },
     {
         id: 26,
@@ -1262,7 +1262,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire2",
-        tokens: 12,
+        tokens: 3,
     },
     {
         id: 27,
@@ -1278,7 +1278,7 @@ export const COMBINATIONS = [
     ],
 
         backgroundImg: "title-column fire2",
-        tokens: 12,
+        tokens: 6,
     },
     {
         id: 28,
@@ -1294,7 +1294,7 @@ export const COMBINATIONS = [
     ],
 
     backgroundImg: "title-column fire3",
-        tokens: 200,
+        tokens: "41 additional",
     },
     {
         id: 29,
@@ -1326,7 +1326,7 @@ export const COMBINATIONS = [
     ],
 
     backgroundImg: "title-column fire3",
-        tokens: 10,
+        tokens: 6,
     },
     {
         id: 31,
@@ -1358,7 +1358,7 @@ export const COMBINATIONS = [
     ],
 
     backgroundImg: "title-column fire3",
-        tokens: 15,
+        tokens: 6,
     },
     {
         id: 33,
@@ -1374,7 +1374,7 @@ export const COMBINATIONS = [
     ],
 
     backgroundImg: "title-column fire3",
-        tokens: 25,
+        tokens: 8,
     },
 
 ]
